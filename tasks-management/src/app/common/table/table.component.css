@@ -1,0 +1,21 @@
+.table {
+    display: flex;
+}
+
+.header-row, .table-item {
+    padding: var(--space1);
+    border-bottom: 1px solid var(--tableBorderColor);
+}
+
+.header-row {
+    color: var(--tableHeaderColor);
+}
+
+.table > div:nth-child(1) {
+    margin-right: var(--space1);
+    width: 10rem;
+}
+
+.table > div:nth-child(2) {
+    width: 100%;
+}

@@ -1,0 +1,13 @@
+.tasks {
+    height: 100%;
+    display: flex;
+}
+
+tasks-menu {
+    width: 40%;
+    max-width: 25rem;
+}
+
+.tasks-content {
+    flex-grow: 1;
+}

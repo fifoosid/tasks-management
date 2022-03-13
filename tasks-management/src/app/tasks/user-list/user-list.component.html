@@ -1,0 +1,11 @@
+<div class="usersWrapper">
+  <div
+    *ngFor="let user of users"
+    class="user"
+    [class.selectedUser]="user === this.selectedUser"
+    (click)="handleUserClick(user)"
+  >
+    <div class="userId">{{user.id}}</div>
+    <div class="userInfo">{{user.devices}} Devices - {{user.sessions.length}} Sessions - {{user.location}}</div>
+  </div>
+</div>

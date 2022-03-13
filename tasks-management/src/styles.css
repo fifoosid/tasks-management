@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+
+    /* Global CSS Variables */
+
+    /* Fonts */
+    --titleFontSize: 16px;
+    --subTitleFontSize: 12px;
+    --menuUserFontSize: 14px;
+    --menuUserFontStyle: bold;
+    --detailsUserFontSize: 18px;
+    --detailsUserFontStyle: bold;
+    --tileFontSize: 12px;
+    --tileValueFontSize: 18px;
+
+    /* Colors */
+    --subtitleColor: #b2b7b9;
+    --tileBackground: #f6f9fb;
+    --tileTitleColor: #b2b7b9;
+    --tableBorderColor: #e1e4e5;
+    --tableHeaderColor: #b2b7b9;
+
+    /* Spacing */
+    --space1: 4px;
+    --space2: 8px;
+    --space3: 16px;
+    --space4: 24px;
+
+    /* Border-radius */
+    --borderRadius: 4px;
+
+    /* Box-shadow */
+    --boxShadow: 0 8px 20px 0 rgba(0,0,0,0.05);
+}

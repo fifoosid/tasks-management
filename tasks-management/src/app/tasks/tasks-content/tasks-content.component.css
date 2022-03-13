@@ -1,0 +1,37 @@
+.content-header {
+    margin: var(--space4);
+}
+
+.userId {
+    font-size: var(--titleFontSize);
+}
+
+.userInfo {
+    font-size: var(--subTitleFontSize);
+    color: var(--subtitleColor);
+    margin-bottom: var(--space4);
+}
+
+.tiles-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 9rem;
+    background: var(--tileBackground);
+    border-radius: var(--borderRadius);
+    padding: var(--space4);
+}
+
+.tile-header {
+    color: var(--subtitleColor);
+    padding-bottom: var(--space2);
+}
+
+table {
+    width: 100%;
+    margin-top: var(--space4);
+}

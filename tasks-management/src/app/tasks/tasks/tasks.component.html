@@ -1,0 +1,8 @@
+<div class="tasks">
+  <tasks-menu (userSelected)="handleUserSelection($event)"></tasks-menu>
+
+  <section class="tasks-content">
+    <tasks-content [user]="this.currentUser"></tasks-content>
+  </section>
+
+</div>

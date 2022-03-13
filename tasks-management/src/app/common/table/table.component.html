@@ -1,0 +1,19 @@
+<section class="table">
+  <div>
+    <div class="header-row">
+      Attributes
+    </div>
+    <div *ngFor="let dataItem of data | keyvalue" class="table-item">
+      {{dataItem.key}}
+    </div>
+  </div>
+  
+  <div>
+    <div class="header-row">
+      Values
+    </div>
+    <div *ngFor="let dataItem of data | keyvalue" class="table-item">
+      {{dataItem.value}}
+    </div>
+  </div>
+</section>

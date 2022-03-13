@@ -1,0 +1,26 @@
+.tasks-menu {
+    background: var(--tileBackground);
+    height: 100%;
+}
+
+.header-wrapper {
+    padding: var(--space4);
+    border-bottom: 1px solid var(--tableBorderColor);
+    margin-bottom: var(--space4);
+}
+
+.header-wrapper > header {
+    font-size: var(--titleFontSize);
+    margin-bottom: var(--space2);
+}
+
+.header-wrapper > div {
+    font-size: var(--subTitleFontSize);
+    color: var(--subtitleColor);
+}
+
+user-list {
+    height: calc(100vh - 150px);
+    display: block;
+    overflow: hidden;
+}

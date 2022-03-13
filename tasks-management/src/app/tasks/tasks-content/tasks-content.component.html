@@ -1,0 +1,24 @@
+<div *ngIf="this.user" class="content-header">
+  <div class="userId">{{user.id}}</div>
+  <div class="userInfo">{{date}} - {{user.location}}</div>
+
+  <div class="tiles-wrapper">
+    <div class="tile">
+      <div class="tile-header">Devices</div>
+      <div class="tile-content">{{user.devices}}</div>
+    </div>
+  
+    <div class="tile">
+      <div class="tile-header">Sessions</div>
+      <div class="tile-content">{{user.sessions.length}}</div>
+    </div>
+  
+    <div class="tile">
+      <div class="tile-header">Events</div>
+      <div class="tile-content">{{user.events}}</div>
+    </div>
+  </div>
+
+  <table [data]="user.attributes"></table>
+  
+</div>
